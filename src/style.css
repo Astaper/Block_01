@@ -12,18 +12,17 @@
     font-weight: normal;
 }
 
-.cards {
-    width: 1440px;
+.container {
+    max-width: 1440px;
     margin: 0 auto;
 }
 
-.promo {
-    width: 845px;
+.cards__promo {
+    max-width: 845px;
     margin: 80px 299px 80px 296px;
 }
 
-.promo__title {
-    font-family: "Open Sans", sans-serif;
+.cards__promo__title {
     font-weight: 800;
     font-size: 12px;
     text-transform: uppercase;
@@ -35,7 +34,7 @@
 
 }
 
-.promo__subtitle {
+.cards__promo__subtitle {
     font-family: 'Galano Grotesque Medium';
     font-weight: 400;
     font-size: 46px;
@@ -56,25 +55,24 @@
 }
 
 .cards__card {
-    width: 387px;
+    padding: 22px;
+    max-width: 387px;
     background: #fff;
 }
 
 .cards__title {
     background: #fff;
-    padding: 22px 0 0 22px;
     font-weight: 700;
     font-size: 17px;
     text-transform: uppercase;
     color: #110c11;
+    margin-bottom: 28px;
 }
 
-.cards__subtitle {
+.cards__descr {
+    background: #fff;
     font-weight: 400;
     font-size: 17px;
     line-height: 153%;
     color: #5c5c5c;
-    background: #fff;
-    margin: 28px 22px 22px 22px;
-    
 }
