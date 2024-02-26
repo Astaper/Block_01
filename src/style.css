@@ -6,6 +6,12 @@
 
 }
 
+@font-face {
+    font-family: 'Galano Grotesque Medium';
+    src: url('../src/fonts/GalanoGrotesque-Medium.woff2') format('woff2');
+    font-weight: normal;
+}
+
 .cards {
     width: 1440px;
     margin: 0 auto;
@@ -30,6 +36,7 @@
 }
 
 .promo__subtitle {
+    font-family: 'Galano Grotesque Medium';
     font-weight: 400;
     font-size: 46px;
     line-height: 120%;
@@ -39,6 +46,7 @@
 }
 
 .cards__container {
+    padding-bottom: 80px;
     font-family: "Open Sans", sans-serif;
     display: flex;
     flex-direction: row;
