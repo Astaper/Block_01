@@ -2,6 +2,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    background: #f9f9fa;
+
 }
 
 .cards {
@@ -9,13 +11,13 @@
     margin: 0 auto;
 }
 
-.cards__promo{
+.promo {
     width: 845px;
-   
-    margin: 80px 299px 645px 296px;
+    margin: 80px 299px 80px 296px;
 }
 
-.cards__title {
+.promo__title {
+    font-family: "Open Sans", sans-serif;
     font-weight: 800;
     font-size: 12px;
     text-transform: uppercase;
@@ -24,14 +26,48 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    
+
 }
 
-.cards__subtitle {
+.promo__subtitle {
     font-weight: 400;
     font-size: 46px;
     line-height: 120%;
     text-align: center;
     color: #110c11;
     margin-top: 22px;
+}
+
+.cards__container {
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 35px;
+}
+
+.cards__card {
+    width: 387px;
+    height: 225px;
+    background: #fff;
+}
+
+.cards__title {
+    background: #fff;
+    padding: 22px 0 0 22px;
+    font-weight: 700;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #110c11;
+}
+
+.cards__subtitle {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 153%;
+    color: #5c5c5c;
+    background: #fff;
+    margin: 28px 22px 22px 22px;
+    
 }
