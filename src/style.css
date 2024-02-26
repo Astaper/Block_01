@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.cards {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.cards__promo{
+    width: 845px;
+   
+    margin: 80px 299px 645px 296px;
+}
+
+.cards__title {
+    font-weight: 800;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    background: linear-gradient(90deg, #4343ff 0%, #f96d6d 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+.cards__subtitle {
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 120%;
+    text-align: center;
+    color: #110c11;
+    margin-top: 22px;
+}
