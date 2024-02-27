@@ -19,7 +19,8 @@
 
 .cards__promo {
     max-width: 845px;
-    margin: 80px 299px 80px 296px;
+    /* margin: 80px 299px 80px 296px; */
+    margin: 80px auto;
 }
 
 .cards__promo__title {
@@ -76,3 +77,15 @@
     line-height: 153%;
     color: #5c5c5c;
 }
+
+@media (max-width: 576px) {
+    .cards__promo {
+        max-width: 845px;
+        /* margin: 30px 1px 14px 1px; */
+        margin: 30px auto;
+    }
+    .cards__promo__subtitle {
+        font-size: 30px;
+    }
+}
+
