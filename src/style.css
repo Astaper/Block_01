@@ -12,7 +12,7 @@
     font-weight: normal;
 }
 
-.container {
+.cards {
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -91,24 +91,24 @@
 
 @font-face {
     font-family: 'Source Sans Pro Regular';
-    src: url('/fonts/SourceSansPro-Regular.otf') format('otf'),
-        url('/fonts/SourceSansPro-Regular.otf') format('opentype');
+    src: url('/src/fonts/SourceSansPro-Regular.otf') format('otf'),
+        url('/src/fonts/SourceSansPro-Regular.otf') format('opentype');
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
     font-family: 'Source Sans Pro Bold';
-    src: url('/fonts/SourceSansPro-Bold.otf') format('otf'),
-        url('/fonts/SourceSansPro-Bold.otf') format('opentype');
+    src: url('/src/fonts/SourceSansPro-Bold.otf') format('otf'),
+        url('/src/fonts/SourceSansPro-Bold.otf') format('opentype');
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
     font-family: 'Source Sans Pro SemiBold';
-    src: url('/fonts/SourceSansPro-Semibold.otf') format('otf'),
-        url('/fonts/SourceSansPro-Semibold.otf') format('opentype');
+    src: url('/src/fonts/SourceSansPro-Semibold.otf') format('otf'),
+        url('/src/fonts/SourceSansPro-Semibold.otf') format('opentype');
     font-style: normal;
     font-weight: normal;
 }
