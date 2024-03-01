@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: 'Galano Grotesque Medium';
-    src: url('../src/fonts/GalanoGrotesque-Medium.woff2') format('woff2');
+    src: url('/fonts/GalanoGrotesque-Medium.woff2') format('woff2');
     font-weight: normal;
 }
 
@@ -91,24 +91,24 @@
 
 @font-face {
     font-family: 'Source Sans Pro Regular';
-    src: url('/src/fonts/SourceSansPro-Regular.otf') format('otf'),
-        url('/src/fonts/SourceSansPro-Regular.otf') format('opentype');
+    src: url('/fonts/SourceSansPro-Regular.otf') format('otf'),
+        url('/fonts/SourceSansPro-Regular.otf') format('opentype');
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
     font-family: 'Source Sans Pro Bold';
-    src: url('/src/fonts/SourceSansPro-Bold.otf') format('otf'),
-        url('/src/fonts/SourceSansPro-Bold.otf') format('opentype');
+    src: url('/fonts/SourceSansPro-Bold.otf') format('otf'),
+        url('/fonts/SourceSansPro-Bold.otf') format('opentype');
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
     font-family: 'Source Sans Pro SemiBold';
-    src: url('/src/fonts/SourceSansPro-Semibold.otf') format('otf'),
-        url('/src/fonts/SourceSansPro-Semibold.otf') format('opentype');
+    src: url('/fonts/SourceSansPro-Semibold.otf') format('otf'),
+        url('/fonts/SourceSansPro-Semibold.otf') format('opentype');
     font-style: normal;
     font-weight: normal;
 }
