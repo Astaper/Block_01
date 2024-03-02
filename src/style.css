@@ -91,6 +91,44 @@
 }
 
 .pictures {
+    margin: 0 auto;
     max-width: 927px;
-    max-width: 902px;
+}
+
+.pictures__header,
+.pictures__collection {
+    max-width: 736px;
+}
+
+.pictures__heading {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.4;
+    color: #333;
+}
+
+.pictures__desc {
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.pictures__images {
+    display: flex;
+    gap: 18px;
+    margin-top: 33px;
+    max-width: 736px;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+img {
+    max-width: 233px;
+    max-height: 300px;
+}
+
+.pictures__collection {
+    margin-top: 80px;
 }
