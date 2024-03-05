@@ -2,8 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background: #f9f9fa;
-
 }
 
 @font-face {
@@ -15,6 +13,8 @@
 .cards {
     max-width: 1440px;
     margin: 0 auto;
+    padding: 80px 104px;
+    background: #f9f9fa;
 }
 
 .cards__promo {
@@ -80,7 +80,6 @@
 @media (max-width: 576px) {
     .cards__promo {
         max-width: 845px;
-        /* margin: 30px 1px 14px 1px; */
         margin: 30px auto;
     }
     .cards__promo__subtitle {
@@ -117,7 +116,7 @@
     display: flex;
     gap: 15px;
     padding: 60px 135px;
-    background: #fff;
+    
 
     @media (max-width: 768px) {
         justify-content: center;
@@ -222,6 +221,7 @@
     flex-wrap: wrap;
     gap: 15px;
     max-height: 402px;
+    max-width: 270px;
 }
 
 .programs__block-system {
