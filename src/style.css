@@ -91,6 +91,7 @@
 }
 
 .pictures {
+    padding: 0 15px;
     margin: 0 auto;
     max-width: 927px;
 }
@@ -99,8 +100,6 @@
     max-width: 736px;
     margin: 0 auto;
 }
-
-
 
 .pictures__title {
     font-family: "Montserrat", sans-serif;
@@ -139,11 +138,11 @@ img {
 
 .pictures__banner {
     display: flex;
-    gap: 150px;
+    gap: 30px;
     max-width: 927px;
     background: #0079c8;
     border-radius: 4px;
-    margin: 72px auto;
+    margin: 30px auto;
     padding: 40px 50px;
 }
 
