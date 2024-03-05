@@ -113,10 +113,9 @@
     font-weight: normal;
 }
 
-.container {
+.info {
     display: flex;
     gap: 15px;
-    max-width: 1440px;
     padding: 60px 135px;
     background: #fff;
 
