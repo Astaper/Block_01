@@ -82,6 +82,7 @@
         max-width: 845px;
         margin: 30px auto;
     }
+
     .cards__promo__subtitle {
         font-size: 30px;
     }
@@ -116,15 +117,9 @@
     display: flex;
     gap: 15px;
     padding: 60px 135px;
-    
-
-    @media (max-width: 768px) {
-        justify-content: center;
-    }
 }
 
 .income__block {
-    max-width: 470px;
     display: flex;
     max-width: 470px;
     justify-content: center;
@@ -170,14 +165,6 @@
 .income__button-all {
     width: 300px;
     margin-top: 30px;
-
-    @media (max-width: 768px) {
-        flex-direction: column;
-        display: flex;
-        width: auto;
-        margin-top: 14px;
-        gap: 8px;
-    }
 }
 
 .income__button-1 {
@@ -212,7 +199,7 @@
 .programs__block {
     display: flex;
     gap: 15px;
-    width: 555px;
+    max-width: 555px;
     max-height: 402px;
 }
 
@@ -287,7 +274,6 @@
     }
 }
 
-
 .programs__block-descr {
     font-family: 'Source Sans Pro Regular', sans-serif;
     font-size: 14px;
@@ -304,3 +290,45 @@
     }
 }
 
+@media (max-width: 992px) {
+    .info {
+        flex-direction: column;
+    }
+
+    .income__block {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        max-width: none;
+    }
+
+    .programs__block {
+        flex-direction: column;
+        max-width: none;
+    }
+
+    .programs__block-other {
+        flex-direction: column;
+        max-height: 402px;
+        max-width: none;
+    }
+
+    .programs__block-system {
+        max-width: none;
+        padding: 5px;
+    }
+
+    .programs__block-help {
+        max-width: none;
+        padding: 5px;
+    }
+
+    .programs__block-plus {
+       max-width: none;
+       padding: 5px;
+    }
+
+    .programs__block-line {
+        max-width: none;
+    }
+}
