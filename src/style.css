@@ -13,7 +13,7 @@
 .cards {
     max-width: 1440px;
     margin: 0 auto;
-    padding: 80px 104px;
+    padding: 80px 5px;
     background: #f9f9fa;
 }
 
@@ -116,7 +116,7 @@
 .info {
     display: flex;
     gap: 15px;
-    padding: 60px 135px;
+    padding: 60px 35px;
 }
 
 .income__block {
@@ -176,9 +176,9 @@
     color: #fff;
     border: none;
 
-    @media (max-width: 768px) {
+    /* @media (max-width: 768px) {
         width: 130px;
-    }
+    } */
 }
 
 .income__button-2 {
@@ -191,9 +191,9 @@
     font-size: 16px;
     color: #fff;
 
-    @media (max-width: 768px) {
+    /* @media (max-width: 768px) {
         margin-left: 0;
-    }
+    } */
 }
 
 .programs__block {
