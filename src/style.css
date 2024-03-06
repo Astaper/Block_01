@@ -116,6 +116,7 @@
     display: flex;
     gap: 15px;
     padding: 30px 30px;
+    justify-content: center;
 }
 
 .income__block {
@@ -174,10 +175,6 @@
     font-size: 16px;
     color: #fff;
     border: none;
-
-    /* @media (max-width: 768px) {
-        width: 130px;
-    } */
 }
 
 .income__button-2 {
@@ -189,10 +186,6 @@
     border: none;
     font-size: 16px;
     color: #fff;
-
-    /* @media (max-width: 768px) {
-        margin-left: 0;
-    } */
 }
 
 .programs__block {
