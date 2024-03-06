@@ -13,7 +13,7 @@
 .cards {
     max-width: 1440px;
     margin: 0 auto;
-    padding: 80px 5px;
+    padding: 60px 5px;
     background: #f9f9fa;
 }
 
@@ -45,7 +45,6 @@
 }
 
 .cards__container {
-    padding-bottom: 80px;
     font-family: "Open Sans", sans-serif;
     display: flex;
     flex-direction: row;
@@ -116,7 +115,7 @@
 .info {
     display: flex;
     gap: 15px;
-    padding: 60px 35px;
+    padding: 30px 30px;
 }
 
 .income__block {
