@@ -94,6 +94,28 @@
     --my-progress: 46%; 
 }
 
+@font-face {
+    font-family: 'Helvetica Neue-Regular';
+    src: url('/fonts/HelveticaNeue-Regular.otf') format('otf'),
+        url('/fonts/HelveticaNeue-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Helvetica Neue Medium';
+    src: url('/fonts/HelveticaNeueMedium.otf') format('otf'),
+        url('/fonts/HelveticaNeueMedium.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Helvetica Neue Bold';
+    src: url('/fonts/HelveticaNeueBold.otf') format('otf'),
+        url('/fonts/HelveticaNeueBold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .statistics {
     border-radius: 5px;
     padding: 24px 32px;
@@ -121,6 +143,7 @@
 .statistics__progress-text,
 .statistics__video-block2,
 .statistics__tests-block2 {
+    font-family: "Helvetica Neue Regular", sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.4;
@@ -129,6 +152,7 @@
 }
 
 .statistics__progress-heading {
+    font-family: "Helvetica Neue Bold", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.4;
@@ -137,6 +161,7 @@
 }
 
 .statistics__percents-number {
+    font-family: "Helvetica Neue Bold", sans-serif;
     font-weight: 700;
     font-size: 16px;
     color: #77bb2f;
@@ -182,6 +207,7 @@
 
 .statistics__video-text,
 .statistics__tests-text {
+    font-family: "Helvetica Neue Medium", sans-serif;
     background: #fff;
     font-weight: 500;
     font-size: 14px;
