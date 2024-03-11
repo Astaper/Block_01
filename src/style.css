@@ -84,8 +84,108 @@
         /* margin: 30px 1px 14px 1px; */
         margin: 30px auto;
     }
+
     .cards__promo__subtitle {
         font-size: 30px;
     }
+}
+
+:root {
+    --my-progress: 46%; 
+}
+
+.statistics {
+    border-radius: 5px;
+    padding: 24px 32px;
+    max-width: 370px;
+    background: #fff;
+    margin: 0 auto;
+}
+
+.statistics__content {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.statistics__progress,
+.statistics__percents {
+    gap: 8px;
+    flex-direction: column;
+    display: flex;
+    max-width: 306px;
+    background: #fff;
+}
+
+.statistics__progress-text,
+.statistics__video-block2,
+.statistics__tests-block2 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #515151;
+    background: #fff;
+}
+
+.statistics__progress-heading {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.4;
+    color: #061b36;
+    background: #fff;
+}
+
+.statistics__percents-number {
+    font-weight: 700;
+    font-size: 16px;
+    color: #77bb2f;
+    background: #fff;
+}
+
+.statistics__percents-line {
+    border-radius: 9999px;
+    max-width: 306px;
+    background: #eef3f7;
+}
+
+.statistics__percents-green {
+    width: var(--my-progress);
+    border-radius: 9999px;
+    height: 4px;
+    background: #77bb2f;
+}
+
+.statistics__video,
+.statistics__tests {
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    max-width: 306px;
+}
+
+.statistics__video-block1,
+.statistics__tests-block1 {
+    background: #fff;
+    display: flex;
+    gap: 10px;
+    max-width: 71px;
+}
+
+.statistics__video-img,
+.statistics__tests-img,
+.statistics__video-icon,
+.statistics__tests-icon
+ {
+    background: #fff;
+}
+
+.statistics__video-text,
+.statistics__tests-text {
+    background: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #061b36;
 }
 
